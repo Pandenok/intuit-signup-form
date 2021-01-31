@@ -86,23 +86,45 @@ nav {
 
 /*
   ========================================
-  Intuit Logo
+  Intuit Logo & Product Logos
   ========================================
 */
 
 header {
-  padding: 20px 0;
+  margin-bottom: 15px;
   text-align: center;
-  /* background-color: salmon; */
+  /* background-color: cyan; */
 }
 
-header img {
+header h1 {
+  padding: 20px 0;
+}
+
+header h1 img {
   width: 118px;
   height: 35px;
 }
 
-#logo-container {
-  background-color: cyan;
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li:nth-last-of-type(n+2) {
+  margin-right: 9px;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #8d9096;
+  font-size: 1.2rem;
+}
+
+header ul img {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+  border-radius: 50%;  
 }
 
 #form-container {
