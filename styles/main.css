@@ -144,7 +144,30 @@ header ul img {
 
 #form-container header {
   padding-bottom: 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.2;
   background-color: pink;
+}
+
+#form-container header h2 {
+  color: #393A3D;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+}
+
+#form-container header p {
+  padding-top: 20px;
+}
+
+#form-container header a {
+  color: #0077C5;
+  text-decoration: none;
+}
+
+#form-container header a:hover {
+  text-decoration: underline;
 }
 
 form {
