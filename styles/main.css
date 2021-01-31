@@ -7,18 +7,6 @@ html, body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-nav {
-  /* height: 60px; */
-  padding: 10px 30px;
-  /* background-color: green; */
-}
-
-header {
-  padding: 20px 0;
-  text-align: center;
-  background-color: gray;
-}
-
 main {
   flex: 1;
   display: flex;
@@ -52,6 +40,12 @@ button {
   Top Navbar
   ========================================
 */
+
+nav {
+  /* height: 60px; */
+  padding: 10px 30px;
+  /* background-color: green; */
+}
 
 #nav-container {
   float: right;
@@ -88,6 +82,23 @@ button {
 
 #nav-container div a:hover {
   text-decoration: underline;
+}
+
+/*
+  ========================================
+  Intuit Logo
+  ========================================
+*/
+
+header {
+  padding: 20px 0;
+  text-align: center;
+  /* background-color: salmon; */
+}
+
+header img {
+  width: 118px;
+  height: 35px;
 }
 
 #logo-container {
