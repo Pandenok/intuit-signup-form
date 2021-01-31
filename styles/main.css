@@ -127,6 +127,12 @@ header ul img {
   border-radius: 50%;  
 }
 
+/*
+  ========================================
+  Main - Form
+  ========================================
+*/
+
 #form-container {
   height: 100%;
   display: flex;
@@ -136,8 +142,26 @@ header ul img {
   background-color: lightgreen;
 }
 
+#form-container header {
+  padding-bottom: 20px;
+  background-color: pink;
+}
+
 form {
+  flex: 1;
+  padding-bottom: 10px;
   background-color: white;
+}
+
+#form-container footer {
+  width: 100%;
+  background-color: turquoise;
+}
+
+#captcha {
+  margin: 32px -30px -30px -30px;
+  padding: 16px;
+  background-color: violet;
 }
 
 #privacy {
